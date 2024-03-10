@@ -18,7 +18,7 @@
 
 
 <p>
-<img height="100" src="(https://i.postimg.cc/Zqbz5ZcL/music.gif)"> 
+<img height="100" src="https://i.postimg.cc/Zqbz5ZcL/music.gif"> 
 </a>
 </p>
 
