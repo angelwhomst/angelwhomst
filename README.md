@@ -33,7 +33,7 @@
 <div align="center">
 
 
-![](https://visitcount.itsvg.in/api?id=angelwhomst&icon=7&color=1)
+![](https://komarev.com/ghpvc/?username=angelwhomst&label=profile+views&style=falt-square)
 
 
 <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/notepad.gif" alt="Site created with Notepad" height="30" />
