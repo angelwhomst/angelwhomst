@@ -28,12 +28,15 @@
 
 
 
+
+
+
+
+
 <!-- Footer -->
 
 <div align="center">
 
-
-![](https://komarev.com/ghpvc/?username=angelwhomst&label=profile+views&style=falt-square)
 
 
 <img src="https://raw.githubusercontent.com/BrunnerLivio/brunnerlivio/master/images/notepad.gif" alt="Site created with Notepad" height="30" />
