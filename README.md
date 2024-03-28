@@ -46,7 +46,8 @@
 <div align="center">
 
 
-
+<br>
+<br>
 <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/notepad.gif" alt="Site created with Notepad" height="30" />
 <!-- "margin-right: whatever;" -->
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
