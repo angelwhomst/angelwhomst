@@ -1,5 +1,8 @@
 <!-- Header -->
 <div align="center">
+  <img src="https://katebagenzo.neocities.org/computing/assets/angel-F3wKQ92K.png" height ="300" width="1000" />
+  <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/angel%20computing%20artist%20credit.png" height="30"/>
+  <p>───────── ๋࣭ 𖤐 ‧₊💿˚ ⋅ ─────────</p>
   <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/welcome.png" style="max-width: 100%;" alt="Welcome to my Github Profile" />
   <br />
   <br />
@@ -48,11 +51,11 @@
 
 <br>
 <br>
-<img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/notepad.gif" alt="Site created with Notepad" height="30" />
+<img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/chrome.gif" alt="Site created with Notepad" height="30" />
 <!-- "margin-right: whatever;" -->
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
-<img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/ie_logo.gif" alt="Microsoft Internet Explorer" />
+<img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/catscape.gif" alt="Microsoft Internet Explorer" />
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
-<img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/noframes.gif" alt="Microsoft Internet Explorer" />
+<img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/piracy.gif" alt="Microsoft Internet Explorer" />
 
 </div>
