@@ -1,7 +1,7 @@
 <!-- Header -->
 <div align="center">
   <img src="https://katebagenzo.neocities.org/computing/assets/angel-F3wKQ92K.png" height ="300" width="1000" />
-  <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/angel%20computing%20artist%20credit.png" height="30"/>
+  <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/angel%20computing%20artist%20credit_.png?raw=true" height="30"/>
   <p>───────── ๋࣭ 𖤐 ‧₊💿˚ ⋅ ─────────</p>
   <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/welcome.png" style="max-width: 100%;" alt="Welcome to my Github Profile" />
   <br />
