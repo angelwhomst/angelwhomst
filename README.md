@@ -20,14 +20,14 @@
 <br />
 <br />
 
-<p><a href="https://www.youtube.com/watch?v=OLunhFsbq-E">
+<p><a href="https://www.youtube.com/watch?v=OLunhFsbq-E" target="_blank">
 <img alt="Globe" height="80" src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/globe.gif">
 </a>
 </p>
 </td>
 
 <td align="center">
-<a href="https://open.spotify.com/track/2NJirbzL4zisT8kAM8s3VY?si=2d55e8801da349a0">
+<a href="https://open.spotify.com/track/2NJirbzL4zisT8kAM8s3VY?si=2d55e8801da349a0" target="_blank">
 <strong>listen to cool music</strong>
 <br />
 <br />
