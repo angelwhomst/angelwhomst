@@ -52,7 +52,7 @@
 <br>
 <br>
 <!-- <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/chrome.gif" alt="Site created with Notepad" height="30" />
-<!-- "margin-right: whatever;" -->
+<!-- "margin-right: whatever;" 
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
 <img src="https://github.com/angelwhomst/angelwhomst/blob/main/readme/catscape.gif" alt="Microsoft Internet Explorer" />
 <span>&nbsp;&nbsp;&nbsp;&nbsp;</span>  
