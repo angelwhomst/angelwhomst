@@ -1,0 +1,53 @@
+name: README build
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs at 4:00 AM UTC every day (12:00 PM PST / 12:00 PM in the Philippines)
+    - cron: "0 4 * * *"
+  #  manually trigger the workflow from the Actions tab
+  workflow_dispatch: 
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+          
+      - name: Setup Python 3.10
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+          
+      - name: Configure pip cache
+        uses: actions/cache@v3
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ hashFiles('**/cache/requirements.txt') }}
+          restore-keys: ${{ runner.os }}-pip-
+          
+      - name: Install dependencies
+        run: python -m pip install -r cache/requirements.txt
+        
+      - name: Fetch Data and Update SVGs
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ secrets.USER_NAME }}
+        run: python main.py
+        
+      - name: Commit and Push Changes
+        run: |-
+          git add dark_mode.svg light_mode.svg cache/
+          git diff
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git commit -m "chore: Automated profile metrics update" -a || echo "No changes to commit"
+          git push
