@@ -75,6 +75,6 @@
     <tspan x="450" y="430">- GitHub Stats -———————————————————————————————————————————-—-</tspan>
     <tspan x="450" y="450">. </tspan><tspan class="orange">Repos</tspan>:<tspan id="repo_data_dots"></tspan><tspan class="blue" id="repo_data">29</tspan> {<tspan class="orange">Contributed</tspan>: <tspan class="blue" id="contrib_data">36</tspan>} | <tspan class="orange">Stars</tspan>:<tspan id="star_data_dots"></tspan><tspan class="blue" id="star_data">1</tspan>
     <tspan x="450" y="470">. </tspan><tspan class="orange">Commits</tspan>:<tspan id="commit_data_dots"></tspan><tspan class="blue" id="commit_data">614</tspan> | <tspan class="orange">Views</tspan>:<tspan> ............ </tspan><tspan class="blue">Loading...</tspan>
-    <tspan x="450" y="490">. </tspan><tspan class="orange">Lines of Code on GitHub</tspan>:<tspan id="loc_data_dots"></tspan><tspan class="blue" id="loc_data">8,003,776</tspan> ( <tspan class="green" id="loc_add">9,174,698</tspan><tspan class="green">++</tspan>, <tspan id="loc_del_dots"></tspan><tspan class="red" id="loc_del">1,170,922</tspan><tspan class="red">--</tspan> )
+    <tspan x="450" y="490">. </tspan><tspan class="orange">Lines of Code on GitHub</tspan>:<tspan> . </tspan><tspan class="blue" id="loc_data">0</tspan><tspan> ( </tspan><tspan class="green" id="loc_add">0</tspan><tspan class="green">++</tspan>, <tspan class="red" id="loc_del">0</tspan><tspan class="red">--</tspan><tspan> )</tspan>  </text>
   </text>
 </svg>
