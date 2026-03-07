@@ -3,7 +3,7 @@ import os
 USER_NAME = os.getenv('USER_NAME', 'angelwhomst')
 ACCESS_TOKEN = os.getenv('ACCESS_TOKEN')
 
-HEADERS = {'authorization': 'token' + ACCESS_TOKEN}
+HEADERS = {'authorization': f'token {ACCESS_TOKEN}'}
 
 QUERY_COUNT = {
     'user_getter': 0, 
@@ -15,4 +15,3 @@ QUERY_COUNT = {
 }
 
 OWNER_ID = None
-
