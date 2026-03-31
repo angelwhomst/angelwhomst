@@ -1,13 +1,23 @@
 import requests
+import time
 
 import config
 from utils import query_count
 
-def simple_request(func_name, query, variables):
-    request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=config.HEADERS)
-    if request.status_code == 200:
-        return request
-    raise Exception(func_name, ' has failed with a', request.status_code, request.text, config.QUERY_COUNT)
+def simple_request(func_name, query, variables, max_retries=5, backoff_factor=1.5):
+    attempt = 0
+    while attempt < max_retries:
+        request = requests.post('https://api.github.com/graphql', json={'query': query, 'variables':variables}, headers=config.HEADERS)
+        if request.status_code == 200:
+            return request
+        if request.status_code in (502, 503, 504) or (request.status_code == 429):
+            wait = backoff_factor * (2 ** attempt)
+            print(f"[simple_request] {func_name} failed with {request.status_code}, retrying in {wait:.1f}s (attempt {attempt+1}/{max_retries})")
+            time.sleep(wait)
+            attempt += 1
+            continue
+        raise Exception(func_name, ' has failed with a', request.status_code, request.text, config.QUERY_COUNT)
+    raise Exception(func_name, f' failed after {max_retries} retries', request.status_code, request.text, config.QUERY_COUNT)
 
 def user_getter(username):
     query_count('user_getter')
