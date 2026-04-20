@@ -49,7 +49,7 @@
 <text x="430" y="30" class="text" xml:space="preserve">
     <tspan x="430" y="30"><tspan class="blue">angelwhomst</tspan>@<tspan class="blue">github-profile</tspan> -———————————————————————————————————————————-—-</tspan>
     <tspan x="430" y="50">. </tspan><tspan class="orange">OS</tspan>:<tspan> ................................. </tspan><tspan class="blue">Windows, Linux</tspan>
-    <tspan x="430" y="70">. </tspan><tspan class="orange">Uptime</tspan>:<tspan id="age_data_dots"> .... </tspan><tspan class="blue" id="age_data">21 years, 8 months, 9 days</tspan>
+    <tspan x="430" y="70">. </tspan><tspan class="orange">Uptime</tspan>:<tspan id="age_data_dots"> ... </tspan><tspan class="blue" id="age_data">21 years, 8 months, 10 days</tspan>
     <tspan x="430" y="90">. </tspan><tspan class="orange">Host</tspan>:<tspan> ............................... </tspan><tspan class="blue">Polytechnic University of the Philippines</tspan>
     <tspan x="430" y="110">. </tspan><tspan class="orange">Kernel</tspan>:<tspan> ............................. </tspan><tspan class="blue">Dev, Data, Infra</tspan>
     <tspan x="430" y="130">. </tspan><tspan class="orange">IDE</tspan>:<tspan> ................................ </tspan><tspan class="blue">VS Code, Visual Studio, IntelliJ, PyCharm</tspan>
