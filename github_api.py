@@ -76,6 +76,8 @@ def graph_repos_stars(count_type, owner_affiliation, cursor=None, add_loc=0, del
             return request.json()['data']['user']['repositories']['totalCount']
         elif count_type == 'stars':
             total_stars = 0
-            for node in request.json()['data']['user']['repositories']['edges']: 
+            for node in request.json()['data']['user']['repositories']['edges']:
+                if node['node'] is None:
+                    continue
                 total_stars += node['node']['stargazers']['totalCount']
             return total_stars
